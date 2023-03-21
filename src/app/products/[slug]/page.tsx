@@ -13,6 +13,7 @@ const Page = async({params: {slug}}: Props) => {
     }
     return (
         <>
+            <h1>Version 1</h1>
             <div>{product.name}</div>
             <div>{product.price}</div>
             <Image src={`/images/${product.image}`} alt={product.name} width={400} height={400}/>
